@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-color: #252B42;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 2vh 10vw;
+    margin: 0 auto;
+}
+nav > h3{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.6rem;
+}
+nav div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    background-color: #23A6F0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #053d5d;
+    transition: 0.3s;
+}
+.btnb{
+    color: #23A6F0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #23A6F0;
+}
+.btnb:hover{
+    background-color: #23A6F0;
+    color: white;
+    transition: 0.3s;
+}
+header > section {
+    padding: 100px 0;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+header > section ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    list-style: none;
+    line-height: 15vh;
+}
+header > section h1{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    width: 25vw;
+    padding: 5vh 0;
+    margin: 0 auto;
+}
+header > section h5 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+}
+header > section h4 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    width: 50%;
+    margin: 0 auto;
+}
+#cards{
+    margin-top: 2vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#cards > div{
+    background-color: white;
+    color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 3vh 2vw;
+}
+#cards > div:hover{
+    background-color: #CCC;
+    transition: 0.3s;
+}
+#cards img{
+    width: 50px;
+    height: auto;
+}
+#cards h5{
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+#cards hr{
+    background-color: #E74040;
+    border: none;
+    margin: 0;
+    width: 3vw;
+    height: 2px;
+}
+#cards p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
