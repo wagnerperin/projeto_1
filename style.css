@@ -135,6 +135,7 @@ header > section h4 {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
+    text-align: left;
 }
 #cards hr{
     background-color: #E74040;
@@ -148,4 +149,5 @@ header > section h4 {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
+    text-align: left;
 }
